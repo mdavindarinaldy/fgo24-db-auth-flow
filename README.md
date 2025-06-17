@@ -25,7 +25,6 @@ erDiagram
         varchar token
         bool status
         varchar id_login FK
-        varchar id_user_accounts FK
     }
 
     login }o--|| session : make
